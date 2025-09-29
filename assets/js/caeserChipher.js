@@ -60,3 +60,10 @@ function codeLetter(letter, userKey, flag){
     return codedLetter;
   }
 };
+
+module.exports = {
+  codeLetter,
+  calculateNewIndex,
+  convertLetterToIndex,
+  convertIndexToLetter
+};
